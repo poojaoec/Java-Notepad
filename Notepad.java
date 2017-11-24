@@ -21,6 +21,7 @@ public class Notepad extends JFrame implements ActionListener, WindowListener {
 		
 		con.setLayout(new BorderLayout());
 		//trying to add scrollbar
+		//Testing
 		JScrollPane sbrText = new JScrollPane(jta);
 		sbrText.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 		sbrText.setVisible(true);
